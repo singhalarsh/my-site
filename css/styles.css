@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+h1{
+    color: #66bfbf;
+    margin-top: 50px;               /*16px=1em=1rem=100%*/
+    margin-bottom: 0;           /* rem is better to use wrt to em or percentage as it doesn't gets affected by parent size*/
+    font-size: 5.635rem;        
+}
+
+h2{
+    color: #66bfbf;
+    font-family: 'Amatic SC', cursive;
+    margin-top: 0;
+    font-size: 3rem;
+}
+
+h3{
+    color: #11999e;
+    font-family: 'Niconne', cursive;
+    font-size: 2.5rem;
+}
+
+h4{
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 1.5rem;
+}
+
+.top-container{
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.photography{
+    border-radius: 1.5rem;
+    margin-right: 30px;
+    float: left;
+    margin-top: 0;
+}
+
+.painting{
+    float: right;
+    border-radius: 100%;
+    margin-left: 30px;
+    padding-right: 100px;
+}
+
+a{
+    color: #11999e;
+}
+
+wt{
+    font-weight: normal;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+}
+
+hr{
+border-style: dotted none none;
+border-color: #eaf6f6;
+border-width: 12px;
+width: 8%;
+}
+
+.btn {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    height: 0;
+    line-height: 0;
+    color: #FFFFFF;
+    font-family: Arial;
+    width: 261px;
+    font-size: 39px;
+    font-weight: 100;
+    padding: 32px;
+    background-color: #11999E;
+    border: solid #FFFFFF 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .btn:hover {
+    border: solid #337FED 1px;
+    background: #1E62D0;
+    background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+.btn{
+    margin-bottom: 100px;
+}
+
+.bottom-container{
+    background-color: #66bfbf;
+    padding-top: 20px;
+}
